@@ -7,6 +7,8 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+/log/development.log
+
 
 /storage/*
 
