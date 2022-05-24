@@ -5,3 +5,21 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Coin.create!(
+    description: "Bitcoin",
+    acronym: "BTC",
+    url_image: "https://logosmarcas.net/wp-content/uploads/2020/08/Bitcoin-Logo.png"
+)
+
+Coin.create!(
+    description: "Etherium",
+    acronym: "ETH",
+    url_image: "https://marcas-logos.net/wp-content/uploads/2020/03/ETHEREUM-LOGO.png"
+)
+
+Coin.create!(
+    description: "Dash",
+    acronym: "DASH",
+    url_image: "https://s2.coinmarketcap.com/static/img/coins/200x200/131.png"
+)
