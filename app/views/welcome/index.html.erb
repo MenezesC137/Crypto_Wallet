@@ -2,11 +2,7 @@
 
 <p> Data: <%= data_br(Date.today) %>
 
-<ul>
-    <li>
-        <%= link_to "Cadastro de Moedas", coins_path %>
-    </li>
-</ul>
+<%= render "menu" %>
 
 <p>
     Você está em ambiente de <strong><%= ambiente_rails %></strong>
