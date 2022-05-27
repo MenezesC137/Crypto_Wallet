@@ -20,12 +20,12 @@ namespace :dev do
         {    
           description: "Bitcoin",
           acronym: "BTC",
-          url_image: "https://imagensemoldes.com.br/wp-content/uploads/2020/09/Imagem-Dinheiro-Bitcoin-PNG.png"
+          url_image: "https://imagensemoldes.com.br/wp-content/uploads/2020/09/Imagem-Dinheiro-Bitcoin-PNG.png",
         },
         {
           description: "Etherium",
           acronym: "ETH",
-          url_image: "https://marcas-logos.net/wp-content/uploads/2020/03/ETHEREUM-LOGO.png"
+          url_image: "https://marcas-logos.net/wp-content/uploads/2020/03/ETHEREUM-LOGO.png",
         },
       ]
 
