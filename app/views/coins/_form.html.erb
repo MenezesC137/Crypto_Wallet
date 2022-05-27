@@ -27,6 +27,10 @@
     <td> <%= image_tag coin.url_image, witdh: 25, height: 25 %> </td>
   </div>
 
+  <div class='field'>
+    <%= form.select("person_id", Person.all.collect {|p| [p.name, p.id ]}, {include_blank: true})%>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
