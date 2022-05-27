@@ -6,6 +6,7 @@ namespace :dev do
       show_spinner("Excluindo DB..."){ %x(rails db:drop)}
       show_spinner("Criando..."){ %x(rails db:create)}
       show_spinner("Migrando..."){ %x(rails db:migrate)}
+      %x(rails dev:add_mining)
       %x(rails dev:add_coins)
       
     else
@@ -21,11 +22,13 @@ namespace :dev do
           description: "Bitcoin",
           acronym: "BTC",
           url_image: "https://imagensemoldes.com.br/wp-content/uploads/2020/09/Imagem-Dinheiro-Bitcoin-PNG.png",
+          mining_type: MiningType.find_by(acronym: "PoW")
         },
         {
           description: "Etherium",
           acronym: "ETH",
           url_image: "https://marcas-logos.net/wp-content/uploads/2020/03/ETHEREUM-LOGO.png",
+          mining_type: MiningType.all.sample
         },
       ]
 
