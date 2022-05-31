@@ -1,11 +1,7 @@
 module ApplicationHelper
 
-    def locale(locale)
-        if I18n.locale == :en
-            "EUA"
-        else 
-            "Português-BR"
-        end
+    def locale
+        I18n.locale == :en ? "EUA" : "Português-BR"
     end
 
     def data_br(data_us)
