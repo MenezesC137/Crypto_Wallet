@@ -1,6 +1,8 @@
 <h1>Seja Bem Vindo!</h1>
 
-<p> Data: <%= data_br(Date.today) %>
+<p> Idioma Selecionado é: <strong><%= locale(I18n.locale) %> </strong></p>
+
+<p> Data: <%= Date.today %>
 
 <%= render "menu" %>
 
