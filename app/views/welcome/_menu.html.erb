@@ -1,8 +1,2 @@
-<ul>
-    <li>
-        <%= link_to "Cadastro de Moedas", coins_path %>
-    </li>
-    <li>
-        <%= link_to "Mineração", mining_types_path %>
-    </li>
-</ul>
+<%= link_to "#{Coin.model_name.human}", coins_path, class:"btn btn-primary btn-sm", role:"button" %>
+<%= link_to "#{MiningType.model_name.human}", mining_types_path, class:"btn btn-primary btn-sm", role:"button" %>
