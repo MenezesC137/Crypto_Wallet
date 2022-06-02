@@ -4,8 +4,20 @@ en:
   messages:
     welcome: "This is Crypto Wallet, an app for you to register and track your cryptocurrencies."
     menu: "To get started, select one of the options below:"
+    confirm: "Are you sure you want to delete?"
   hello: "Hello world"
-  links: 
+  links:
     edit: "Edit"
     show: "Show"
     delete: "Delete"
+    new: "New"
+    back: "Back"
+  new:
+    coin: "New Coin"
+    mining_type: "New Mining Type"
+  editing:
+    coin: "Editing Coin"
+    mining_type: "Editing Mining Type"
+  showing:
+    coin: "Showing Coin"
+    mining_type: "Showing Mining Type"
